@@ -1,0 +1,6 @@
+package com.dudebro.dudeboot.reference;
+
+public class Reference {
+	public static final String MOD_ID = "DudeBoot";
+
+}

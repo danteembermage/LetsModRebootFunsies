@@ -1,0 +1,8 @@
+package com.dudebro.dudeboot.item;
+
+public class ItemFamilyPicture extends ItemDudeBoot{
+
+	public ItemFamilyPicture() {
+		super();
+	}
+}

@@ -1,0 +1,37 @@
+package com.dudebro.dudeboot;
+
+import com.dudebro.dudeboot.proxy.Iproxy;
+
+import cpw.mods.fml.common.Mod;
+import cpw.mods.fml.common.SidedProxy;
+import cpw.mods.fml.common.event.FMLInitializationEvent;
+import cpw.mods.fml.common.event.FMLPostInitializationEvent;
+import cpw.mods.fml.common.event.FMLPreInitializationEvent;
+
+@Mod(modid="DudeBoot", name="DudeBoot", version="1.7.2-1.0")
+public class DudeBoot {
+
+	@Mod.Instance("DudeBoot")
+	public static DudeBoot instance;
+	
+	@SidedProxy(clientSide = "", serverSide = "")
+	public static Iproxy proxy;
+	
+	@Mod.EventHandler
+	public void preInit(FMLPreInitializationEvent event)
+	{
+		
+	}
+	
+	@Mod.EventHandler
+	public void Init(FMLInitializationEvent event)
+	{
+		
+	}
+	
+	@Mod.EventHandler
+	public void PostInit(FMLPostInitializationEvent event)
+	{
+		
+	}
+}

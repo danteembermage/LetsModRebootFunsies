@@ -1,0 +1,5 @@
+package com.dudebro.dudeboot.configuration;
+
+public class ConfigurationHandler {
+
+}

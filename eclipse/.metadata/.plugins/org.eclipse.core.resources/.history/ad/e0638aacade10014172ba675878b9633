@@ -1,0 +1,5 @@
+package com.dudebro.dudeboot.block;
+
+public class BlockFlag {
+
+}

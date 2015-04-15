@@ -22,8 +22,9 @@ public class BlockFlag extends BlockDudeBoot {
 		//for(int i = 0; i<10; i++){
 		//	world.setBlock(x+i, y+2, z, ModBlocks.BlockFlag, 2, 0);
 		//}
-		if(world.isAirBlock(x, y+1, z)) {
-			world.setBlock(x, y+1, z, ModBlocks.BlockFlag, 2, 0);
+		//This is a test comment to see if I sync with github for windows
+		if(world.isAirBlock(x, y+3, z)) {
+			world.setBlock(x, y+3, z, ModBlocks.BlockFlag, 2, 0);
 		}
 		
 		return true;

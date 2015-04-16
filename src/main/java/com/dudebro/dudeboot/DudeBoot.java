@@ -1,5 +1,15 @@
 package com.dudebro.dudeboot;
 
+import java.io.BufferedReader;
+import java.io.IOException;
+import java.io.InputStream;
+import java.io.InputStreamReader;
+import java.net.MalformedURLException;
+import java.net.URL;
+import java.net.URLConnection;
+
+import net.minecraftforge.common.MinecraftForge;
+
 import com.dudebro.dudeboot.init.ModBlocks;
 import com.dudebro.dudeboot.init.ModItems;
 import com.dudebro.dudeboot.proxy.Iproxy;
@@ -28,13 +38,14 @@ public class DudeBoot {
 		com.dudebro.dudeboot.configuration.ConfigurationHandler.init(event.getSuggestedConfigurationFile());
 		ModItems.init();
 		ModBlocks.init();
+		//ModIO.init();
 		GameRegistry.registerWorldGenerator(new WorldGeneratorFlag(), 0);
 	}
 	
 	@Mod.EventHandler
 	public void Init(FMLInitializationEvent event)
 	{
-		
+		MinecraftForge.EVENT_BUS.register(new WorldEventListener());
 	}
 	
 	@Mod.EventHandler

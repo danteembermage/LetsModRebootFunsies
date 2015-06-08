@@ -1,9 +1,0 @@
-package com.dudebro.dudeboot.block;
-
-public class BlockFlag extends BlockDudeBoot {
-
-	public BlockFlag(){
-		super();
-		this.setBlockName("flag");
-	}
-}

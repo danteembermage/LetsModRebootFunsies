@@ -1,1 +1,0 @@
-INDEX VERSION 1.127+C:\Users\Robinson\Documents\GitHub\LetsModRebootFunsies\.metadata\.plugins\org.eclipse.jdt.core
